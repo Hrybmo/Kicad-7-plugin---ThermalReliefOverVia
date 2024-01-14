@@ -10,9 +10,11 @@ I'm soldering a wire from the top to bottom via pad but you can use this to sold
 Lastly, the original via is not deleted and is intended as a way to reverse this action later if needed by deleting the footprint on top of it.
 
 From no thermal relief and no via pads...
+
 ![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/547604bf-de00-4110-a54e-25eb16960607)
 
 
 To thermal relief and via pads...
+
 ![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/6844d427-cb02-4d4e-9394-f093aa53c47d)
 
