@@ -1,5 +1,5 @@
 
-# Kicad-7-plugin---ThermalReliefOverVia
+# Kicad-7-plugin---ThermalReliefVia
 
 ![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/1eac6085-8589-4963-85b3-b9091cd92b24)
 
