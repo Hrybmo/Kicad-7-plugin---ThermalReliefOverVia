@@ -40,7 +40,7 @@ class ThermalReliefOverVia(pcbnew.ActionPlugin):
         pad.SetShape(pcbnew.PAD_SHAPE_CIRCLE)
         pad.SetSize(pcbnew.VECTOR2I(padSize, padSize))
         pad.SetDrillSize(pcbnew.VECTOR2I(drillSize, drillSize))
-        pad.SetAttribute(pcbnew.PAD_ATTRIB_NPTH)
+        pad.SetAttribute(pcbnew.PAD_ATTRIB_PTH)
         pad.SetNetCode(net)
         footprint.Add(pad)
         pcb.Add(footprint)
