@@ -6,7 +6,7 @@
 Places a through hole Pad over selected via(s) to make thermal relief for soldering.
 
 This is for DIY circuit boards with vias in copper pour that need to be soldered to. 
-Use this along with the ""Do not tent vias"" option. 
+Use this along with the "Do not tent vias" option. 
 I'm soldering a wire from the top to bottom via pad but you can use this to solder eyelets too.
 The original via is deleted to eliminate repeated drill hits.
 
