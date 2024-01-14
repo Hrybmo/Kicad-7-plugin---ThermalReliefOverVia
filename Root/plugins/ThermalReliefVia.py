@@ -28,7 +28,7 @@ class ThermalReliefVia(pcbnew.ActionPlugin):
     def defaults(self):
         self.name = "Thermal Relief Via"
         self.category = "Via"
-        self.description = "Replaces selected via(s) with identical footprint to make thermal reliefs for soldering."
+        self.description = "Replaces selected via(s) with identical footprint to make thermal relief for soldering."
         self.show_toolbar_button = True # Optional, defaults to False
         self.icon_file_name = os.path.join(os.path.dirname(__file__), 'ThermalReliefVia.png') # Optional, defaults to ""
 
