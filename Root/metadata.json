@@ -3,7 +3,7 @@
     "name": "Thermal Relief Via",
     "description": "Replaces selected via(s) with identical footprint to make thermal relief for soldering.",
     "description_full": "This is for DIY circuit boards with vias in copper pour that need to be soldered to. Use this along with the ""Do not tent vias"" option. I'm soldering a wire from the top to bottom via pad but you can use this to solder eyelets too. The original via is deleted to eliminate repeated drill hits.",
-    "identifier": "com.github.JohnHryb.ThermalReliefOverVia",
+    "identifier": "com.github.JohnHryb.ThermalReliefVia",
     "type": "plugin",
     "author": {
         "name": "John Hryb",
