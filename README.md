@@ -11,7 +11,9 @@ I'm soldering a wire from the top to bottom via pad but you can use this to sold
 The original via is deleted to eliminate repeated drill hits.
 
 From no thermal relief...
+
 ![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/241411fe-3049-4626-a020-9c5600ca8ab3)
 
 To thermal relief...
+
 ![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/7c612709-0d46-444d-ae81-50ed7187149c)
