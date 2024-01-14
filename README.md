@@ -9,8 +9,10 @@ Use this along with the ""Do not tent vias"" option.
 I'm soldering a wire from the top to bottom via pad but you can use this to solder eyelets too.
 Lastly, the original via is not deleted and is intended as a way to reverse this action later if needed by deleting the footprint on top of it.
 
-From no thermal relief...
-![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/241411fe-3049-4626-a020-9c5600ca8ab3)
+From no thermal relief and no via pads...
+![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/547604bf-de00-4110-a54e-25eb16960607)
 
-To thermal relief...
-![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/7c612709-0d46-444d-ae81-50ed7187149c)
+
+To thermal relief and via pads...
+![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/6844d427-cb02-4d4e-9394-f093aa53c47d)
+
