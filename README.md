@@ -3,7 +3,7 @@
 
 ![image](https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia/assets/571714/1eac6085-8589-4963-85b3-b9091cd92b24)
 
-Places a through hole Pad over selected via(s) to make thermal reliefs for soldering.
+Places a through hole Pad over selected via(s) to make thermal relief for soldering.
 
 This is for DIY circuit boards with vias in copper pour that need to be soldered to. 
 Use this along with the ""Do not tent vias"" option. 
