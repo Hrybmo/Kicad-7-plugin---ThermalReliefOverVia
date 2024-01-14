@@ -54,9 +54,8 @@ class ThermalReliefOverVia(pcbnew.ActionPlugin):
                     drill = item.GetDrillValue()
                     width = item.GetWidth()
                     net = item.GetNetCode()
-                    #now create the TH replacement
+                    #now create the PTH replacement
                     self._makeThPad(position, width, drill, net)
-                    #delete via?
-                    #pcb.Remove(item)
+                    pcb.Remove(item)
 
 ThermalReliefOverVia().register() # Instantiate and register to Pcbnew
