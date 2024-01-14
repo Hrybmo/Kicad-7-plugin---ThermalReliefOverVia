@@ -1,0 +1,23 @@
+{
+    "$schema": "https://go.kicad.org/pcm/schemas/v1",
+    "name": "Thermal Relief Over Via",
+    "description": "Places a through hole pad over selected via(s) to make thermal reliefs for soldering DIY boards.",
+    "description_full": "This is for DIY circuit boards with vias in copper pour or thick traces that need to be soldered to. Use this along with the ""Do not tent vias"" option. I'm soldering a wire from the top to bottom via pad but you can use this to solder eyelets too. Lastly, the original via is not deleted and is intended as a way to reverse this action later if needed by deleting the footprint on top of it.",
+    "identifier": "com.github.JohnHryb.ThermalReliefOverVia",
+    "type": "plugin",
+    "author": {
+        "name": "John Hryb",
+        }
+    },
+    "license": "GPL-2.0",
+    "resources": {
+        "homepage": "https://github.com/Hrybmo/com.github.JohnHryb.ThermalReliefOverVia"
+    },
+    "versions": [
+        {
+            "version": "0.1.0",
+            "status": "testing",
+            "kicad_version": "7.0"
+        }
+    ]
+}
