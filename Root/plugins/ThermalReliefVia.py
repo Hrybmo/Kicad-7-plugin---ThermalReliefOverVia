@@ -1,4 +1,4 @@
-#  ThermalReliefOverVia.py
+#  ThermalReliefVia.py
 #
 # Copyright (C) 2024 John Hryb
 #
@@ -23,14 +23,14 @@ from math import *
 import pcbnew
 import os
 
-class ThermalReliefOverVia(pcbnew.ActionPlugin):
+class ThermalReliefVia(pcbnew.ActionPlugin):
 
     def defaults(self):
-        self.name = "Thermal Relief Over Via"
+        self.name = "Thermal Relief Via"
         self.category = "Via"
-        self.description = "Places a through hole pad over selected via(s) to make thermal reliefs for soldering DIY boards."
+        self.description = "Replaces selected via(s) with identical footprint to make thermal reliefs for soldering."
         self.show_toolbar_button = True # Optional, defaults to False
-        self.icon_file_name = os.path.join(os.path.dirname(__file__), 'ThermalReliefOverVia.png') # Optional, defaults to ""
+        self.icon_file_name = os.path.join(os.path.dirname(__file__), 'ThermalReliefVia.png') # Optional, defaults to ""
 
     def _makeThPad(self, position, padSize, drillSize, net):
         pcb = pcbnew.GetBoard()
@@ -58,4 +58,4 @@ class ThermalReliefOverVia(pcbnew.ActionPlugin):
                     self._makeThPad(position, width, drill, net)
                     pcb.Remove(item)
 
-ThermalReliefOverVia().register() # Instantiate and register to Pcbnew
+ThermalReliefVia().register() # Instantiate and register to Pcbnew
