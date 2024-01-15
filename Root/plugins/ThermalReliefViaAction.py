@@ -19,7 +19,6 @@
 #
 #
 
-from math import *
 import pcbnew
 import os
 
