@@ -57,5 +57,3 @@ class ThermalReliefVia(pcbnew.ActionPlugin):
                     #now create the PTH replacement
                     self._makeThPad(position, width, drill, net)
                     pcb.Remove(item)
-
-ThermalReliefVia().register() # Instantiate and register to Pcbnew
